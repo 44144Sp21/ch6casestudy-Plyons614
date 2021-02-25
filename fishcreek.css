@@ -1,21 +1,33 @@
-body { background-color: #FFFFFF;
+* { box-sizing: border-box; }
+
+body { background-color: #5280C5;
       color: #003366 ;
 	  font-family: Verdana, Arial, sans-serif;
+      background-image:url(gradientblue.jpg);
 }
-header { background-color: #003366;
+header { background-color: #000066;
        color: #F0F0F0;
-	   font-family: Georgia, "Times New Roman", serif;
-	   background-image: url(fishcreeklogo.gif);
+	   background-image: url(bigfish.gif);
 	   background-repeat: no-repeat;
 	   background-position: center;
 	   text-align: center;
+       display: block;
 }
 h1 { line-height: 250%;
- 	margin-bottom: 0;}
+     font-size: 3em;
+     padding: .2em;
+     text-shadow: 4px 1px 1px #CCCCCC;
+ 	 margin-bottom: 0;}
 nav { font-weight: bold;  
-     background-color: #5280C5;
-     text-align: center;
-     padding: 5px;}
+      padding: 5px;
+      float: left;
+      width: 180px;
+      display: block;}
+nav ul{list-style-type: none;}
+nav a{text-decoration: none;}
+nav a:link{color:#000066;}
+nav a:visited{color:#5280C5;}
+nav a:hover{color:#3262A3;}
 .category { font-weight: bold;
 			color: #5280C5;
 			 font-family: Georgia, "Times New Roman", serif; 
@@ -27,13 +39,21 @@ dt { font-weight: bold;
 	 color: #5280C5;
      font-family: Georgia, "Times New Roman", serif;	 
 }
-main { padding-left: 10px;
-      padding-right: 10px;
+main { padding-left: 2em;
+       padding-right: 2em;
+       margin-left: 180px;
+       background-color: #FFFFFF;
+       border-color:#AEC3E3;
+       border-width: 1px;
+       display: block;
 }
 footer { font-size: .70em;
        font-style: italic;
 	   text-align: center;
 	   background-color: #AEC3E3;
+       padding: 1em;
+       margin-left: 180px;
+       display: block;
 }
 footer nav { background-color: 	#F0F0F0	;
 }
